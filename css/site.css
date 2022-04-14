@@ -19,3 +19,7 @@ p{
   border: dotted 10px #00ffff;
   font-size: 28px;
 }
+
+#my-portrait {
+    width: 500px;
+}
