@@ -5,7 +5,7 @@ h1{
 }
 
 p{
-  font-family: "chalkduster";
+  font-family: cursive;
   text-indent: 25px;
   margin-left: 10px;
 }
@@ -16,6 +16,7 @@ p{
   min-height: 500px;
   padding: 10px;
   margin: 10px;
+  float:center;
   border: dotted 10px #00ffff;
   font-size: 28px;
 }
@@ -28,4 +29,16 @@ h2{
   color: Green;
   Text-align: center;
   font-size: 200;
+}
+
+
+#AssignmentsMajorSection {
+  background-color: #ff00ff;
+  width: 700px;
+  min-height: 0px;
+  float:center;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 10px #00ffff;
+  font-size: 28px;
 }
