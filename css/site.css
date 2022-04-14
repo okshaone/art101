@@ -23,3 +23,9 @@ p{
 #my-portrait {
     width: 500px;
 }
+
+h2{
+  color: Green;
+  Text-align: center;
+  font-size: 200;
+}
