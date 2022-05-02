@@ -1,0 +1,16 @@
+p{
+  font-family: "chalkduster";
+  text-indent: 25px;
+  margin-left: 10px;
+}
+
+
+#content {
+  background-color: #FA9799;
+  width: 1350px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 10px #FFF783;
+  font-size: 18px;
+}
