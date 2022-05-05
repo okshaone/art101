@@ -19,11 +19,14 @@ console.log("My array", array);
 var result = array.map(isOdd);
 console.log("Test of oddness of array", result);
 
-var result = array.map(function(x){
+var result2 = array.map(function(x){
   return x ** 2;
-})
+}
+)
 
-var outputEl = document.getElementById("output");
-outputEl.innerHTML = array.map(isOdd);
-
-console.log("Square of array:", result);
+function init(){
+  var contentDIV = document.getElementById("content");
+  var oldContent = contentDIV.innerHTML;
+  var newContent = oldContent + "<p>My Original Array is [" + array.join() + "]</p>" + "<p>Are they Odd Numbers? [" + result.join() + "]</p>" + "<p> How about we Square them? [" + result2.join() + "]</p>";
+  contentDIV.innerHTML = newContent;
+}
